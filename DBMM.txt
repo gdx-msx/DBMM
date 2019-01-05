@@ -1,0 +1,26 @@
+----------------------------------------
+   Displaying the bigger Memory Mapper
+          Version 0.1 by GDX
+----------------------------------------
+
+ DBMM is a program to display the size of bigger RAM expansion
+ with Memory Mapper and the slot.
+
+ Note:
+
+  When DBMM runs on MSX-Turbo R with Disk-Basic v2.01 installed, the
+  internal Memory Mapper size is displayed instead of the bigger one.
+ 
+ Minimum Hardware Requirement:
+
+ - Any MSX.
+ - Any RAM expansion with Memory Mapper
+
+ Use:
+ 
+ Put the file on the disk or tape and run it by entering the
+ following command.
+ 
+ BLOAD"DBMM",R
+
+ Note: DBMM works in text screen mode only.

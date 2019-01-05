@@ -1,0 +1,26 @@
+-----------------------------------------
+  Affichage du plus grand Memory Mapper
+         Version 0.1 par GDX
+----------------------------------------
+
+ DBMM est un programme qui affiche la taille de la plus grande
+ mémoire vive mappée, ainsi que son slot.
+
+ Note :
+
+ Lorsque DBMM est executé sur MSX-Turbo R avec le Disk-Basic v2.01 installé,
+ la taille du Memory Mapper interne est affichée à la place de celle plus grand.
+
+ Matériel minimum requis :
+ 
+ - Un MSX
+ - Une extension de RAM avec Memory Mapper
+ 
+ Utilisation :
+ 
+ Placez le fichier sur le disque ou sur cassette puis executez le
+ en entrant la commande suivante.
+ 
+ BLOAD"DBMM",R
+ 
+ Note: DBMM ne fonctionne qu'en mode d'écran de texte.
