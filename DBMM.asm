@@ -7,23 +7,23 @@
 
 ; Main-Rom entries
 
-CALSLT:	equ	001Ch		; Call Slot
-MSXVER:	equ	002Dh		; Read MSX version
-ENASLT:	equ	0024h		; Slot select
-CHPUT:	equ	00A2h		; Print a character
-IMULT:	equ	03193h		; HL = HL * DE (DAC = HL)
-FOUT:	equ	03425h		; Convert DAC value to characters string
+CALSLT	equ	001Ch		; Call Slot
+MSXVER	equ	002Dh		; Read MSX version
+ENASLT	equ	0024h		; Slot select
+CHPUT	equ	00A2h		; Print a character
+IMULT	equ	03193h		; HL = HL * DE (DAC = HL)
+FOUT	equ	03425h		; Convert DAC value to characters string
 
 ; System variable entries
 
-DISKVE:	equ	0F313h		; Disk-ROM version
-RAMAD0:	equ	0F341h		; Main-RAM slot for the bank 0000h~3FFFh
-RAMAD1:	equ	0F342h		; Main-RAM slot for the bank 4000h~7FFFh
-RAMAD2:	equ	0F343h		; Main-RAM slot for the bank 8000h~BFFFh
-RAMAD3:	equ	0F344h		; Main-RAM slot for the bank C000h~FFFFh
-KBUF:	equ	0F41Fh		; Crunch Buffer
-EXPTBL:	equ	0FCC1h		; Main-ROM Slot
-EXTBIO:	equ	0FFCAh		; Extended Bios entry
+DISKVE	equ	0F313h		; Disk-ROM version
+RAMAD0	equ	0F341h		; Main-RAM slot for the bank 0000h~3FFFh
+RAMAD1	equ	0F342h		; Main-RAM slot for the bank 4000h~7FFFh
+RAMAD2	equ	0F343h		; Main-RAM slot for the bank 8000h~BFFFh
+RAMAD3	equ	0F344h		; Main-RAM slot for the bank C000h~FFFFh
+KBUF	equ	0F41Fh		; Crunch Buffer
+EXPTBL	equ	0FCC1h		; Main-ROM Slot
+EXTBIO	equ	0FFCAh		; Extended Bios entry
 
 	org	0D000h-7
 
